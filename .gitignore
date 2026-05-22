@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment variables (chứa Firebase config — KHÔNG commit)
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel/
+
+# Editor
+.vscode/
+.idea/
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+*.log
+
+# Cache
+.npm-new-cache/
+.eslintcache
